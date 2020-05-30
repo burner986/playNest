@@ -1,0 +1,23 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type PxType {
+  id: ID!
+  name: String!
+  age: Int!
+}
+
+type Query {
+  hello: String!
+  px: [PxType!]!
+}
+
+type Mutation {
+  createPx(input: PxInput!): PxType!
+}
+
+input PxInput {
+  name: String!
+  age: Int!
+}
