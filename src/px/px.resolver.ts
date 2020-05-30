@@ -1,7 +1,7 @@
 import { Resolver, Query, Mutation, Args } from "@nestjs/graphql";
 import { PxService } from './px.service';
 import { PxType } from './dto/pxtype.dto';
-import { PxInput } from './inputs/px.input';
+import { PxInput } from './dto/pxinput.dto';
 
 
 @Resolver()
